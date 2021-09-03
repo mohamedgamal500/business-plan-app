@@ -1,5 +1,5 @@
 import axios from "axios";
 
-const url = "http://localhost:5000";
+const url = "https://6132538dab7b1e001799b460.mockapi.io/business/plans";
 
-export const addResults = (result) => axios.post(url, result);
+export const addPlan = (result) => axios.post(url, result);

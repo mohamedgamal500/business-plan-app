@@ -36,7 +36,7 @@ button:hover:enabled {
 }
 
 .app {
-  width: 500px;
+  width: 600px;
   height: 500px;
   border-radius: 10px;
   background-color: rgb(131, 145, 145);
@@ -58,7 +58,7 @@ button:hover:enabled {
 
 .EndScreen {
   width: 800px;
-  height: 1000px;
+  height: 1100px;
   border-radius: 10px;
   background-color: rgb(131, 145, 145);
   display: flex;
@@ -87,5 +87,5 @@ h3 {
 
  P{
   color: rgb(97, 197, 201);
-  font-size: 20px;
+  font-size: 25px;
 }
