@@ -8,6 +8,7 @@ function SectionTwo() {
   const [answer, setAnswer] = useState("");
   const [investmentNumber, setInvestmentNumber] = useState(0);
 
+  // eslint-disable-next-line no-unused-vars
   const [questions, setQuestions] = useState([
     {
       id: 4,
