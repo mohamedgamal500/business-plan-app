@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+  font-family: arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Menu {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: rgb(131, 145, 145);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Menu input,
+button {
+  width: 300px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+
+button:hover:enabled {
+  cursor: pointer;
+  color: rgb(194, 95, 29);
+  background-color: cadetblue;
+}
+
+.app {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: rgb(131, 145, 145);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Menu,
+.app,
+.EndScreen h1 {
+  color: rgb(36, 23, 14);
+}
+
+#companyName {
+  color: rgb(97, 197, 201)
+}
+
+.EndScreen {
+  width: 800px;
+  height: 1000px;
+  border-radius: 10px;
+  background-color: rgb(131, 145, 145);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#nextQuestion {
+  margin-top: 30px;
+  width: 200px;
+}
+
+#investmentNumber{
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+  width: 70px;
+
+
+}
+
+h3 {
+  color: rgb(36, 23, 14);
+}
+
+ P{
+  color: rgb(97, 197, 201);
+  font-size: 20px;
+}
